@@ -11,3 +11,11 @@ mi_arreglo = Array.new
 mi_matriz[10] = mi_arreglo 
 puts mi_matriz
 end
+matriz = []
+for i in 0..5 do
+  aux = []
+  for j in 0..2 do
+    aux[j] = rand(10)
+  end
+  matriz[i] = aux
+end
