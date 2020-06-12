@@ -8,13 +8,9 @@ Cualquier celda viva con más de tres vecinos vivos, muere (sobrepoblación)
 2.Llenar autmáticamente la matriz con valores aleatorios 
 3. Iterar en cada uno de los valores de la matriz
 =end
-m= Matrix.build(10){rand(0..1)}
- puts
-end
-
-puts m
-
 require 'matrix'
+m= Matrix.build(10){rand(0..1)}
+ puts m
 m.each do |i|
     puts
 end
