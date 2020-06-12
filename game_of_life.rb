@@ -6,8 +6,8 @@ Cualquier celda muerta que tenga exactamente tres vecinos vivos, vuelve a la vid
 Cualquier celda viva con más de tres vecinos vivos, muere (sobrepoblación) 
 =end
 # Declaración de una matriz en Ruby (declaración formal)
-mi_matriz = Array.new (10) 
-mi_arreglo = Array.new (10)
+mi_matriz = Array.new 
+mi_arreglo = Array.new 
 mi_matriz[10] = mi_arreglo 
 puts mi_matriz
 end
